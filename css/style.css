@@ -1,0 +1,60 @@
+.no-margin-padding, .image_food, .foodtext .recipes, .foodtext .food-name {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%; }
+
+.header {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../images/cover.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 880px; }
+
+.food_nav {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.menu_iphone {
+  padding-top: 100px;
+  background-color: #f7f7f7; }
+
+.image_iphone {
+  width: 100%; }
+
+#intro_app {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.col_food {
+  margin: 0px;
+  padding: 0px; }
+
+.image_food {
+  width: 100%; }
+
+.foodtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center; }
+  .foodtext .recipes {
+    font-family: "Time New Roman";
+    font-weight: bold;
+    font-size: 12px; }
+  .foodtext .food-name {
+    font-size: 28px; }
+
+.footer {
+  border: 1px solid #e2e2e2;
+  padding-top: 15px;
+  background-color: #f7f7f7; }
+
+/*# sourceMappingURL=style.css.map */

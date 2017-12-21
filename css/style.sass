@@ -1,0 +1,65 @@
+$main_margin: 0px
+$main_padding: 0px
+$height_header:880px
+$image_cover: url("../images/cover.png")
+$menu_color: #f7f7f7
+
+$foodnav_margintop: 100px
+$nav_iphone_padding_top: 100px
+.no-margin-padding
+	margin: $main_margin
+	padding: $main_padding
+body
+	margin: $main_margin
+	padding: $main_padding
+	height: 100%
+
+.header
+	margin: $main_margin
+	padding: $main_padding
+	background-image: $image_cover
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	height: $height_header
+.food_nav
+	
+	margin-top: $foodnav_margintop
+	margin-bottom: $foodnav_margintop
+.menu_iphone
+	padding-top: $nav_iphone_padding_top
+	background-color: $menu_color
+.image_iphone
+	width: 100%
+
+#intro_app
+	padding-top: 80px
+	padding-bottom: 80px
+.col_food
+	margin: $main_margin
+	padding: $main_padding
+
+.image_food
+	@extend .no-margin-padding
+	width: 100%
+
+.foodtext
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	color: white
+	text-align: center
+	.recipes 
+		@extend .no-margin-padding
+		font-family: "Time New Roman"
+		font-weight: bold
+		font-size: 12px
+		
+	.food-name
+		@extend .no-margin-padding
+		font-size: 28px
+.footer
+	border: 1px solid #e2e2e2
+	padding-top: 15px
+	background-color: $menu_color
